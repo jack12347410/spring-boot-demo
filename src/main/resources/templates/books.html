@@ -15,7 +15,10 @@
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
         <span th:text="${message}">信息提交成功</span>
     </div>
-    <p class="text-end"><a href="./input.html" th:href="@{/books/input}" class="btn btn-primary">新增</a></p>
+    <p class="text-end">
+        <a href="./index.html" th:href="@{/index}" class="btn btn-dark">首頁</a>
+        <a href="./input.html" th:href="@{/books/input}" class="btn btn-primary">新增</a>
+    </p>
     <table class="table table-bordered table-striped table-hover">
         <thead>
         <tr>
