@@ -1,0 +1,9 @@
+server:
+  port: 8081
+logging:
+  level:
+    root: warn
+    '[com.jack]': info
+  file:
+    name: logs/yml.log
+    

@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    mode: HTML
+
+server:
+  servlet:
+    context-path: /api/v1
+book:
+  Name: Who are yo
+  Author: Jack
+  Id: ${random.uuid}
+  Description: ${book.name}, very good.

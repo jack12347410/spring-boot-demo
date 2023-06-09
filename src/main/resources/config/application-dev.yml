@@ -1,0 +1,26 @@
+server:
+  port: 80
+logging:
+  level:
+    root: info
+    '[com.jack]': debug
+  file:
+    name: logs/dev.log
+    
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/Test
+    username: postgres
+    password: aa123456..
+#  datasource:
+#    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+#    url: jdbc:sqlserver://127.0.0.1;databaseName=Test;trustServerCertificate=true;
+#    username: sa
+#    password: aa123456..
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      
+      
