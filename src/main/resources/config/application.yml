@@ -6,7 +6,7 @@ spring:
 
 server:
   servlet:
-    context-path: /api/v1
+    context-path: /jack/v1
 book:
   Name: Who are yo
   Author: Jack
